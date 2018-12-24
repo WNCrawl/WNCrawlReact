@@ -1,0 +1,43 @@
+[{
+    "path": "/Users/dtstack/PycharmProjects/DtCrawlAdmin/webapps/projects/demo",
+    "children": [{
+        "path": "/Users/dtstack/PycharmProjects/DtCrawlAdmin/webapps/projects/demo/demo",
+        "children": [{
+            "path": "/Users/dtstack/PycharmProjects/DtCrawlAdmin/webapps/projects/demo/demo/spiders",
+            "label": "__init__.py"
+          },
+          {
+            "path": "/Users/dtstack/PycharmProjects/DtCrawlAdmin/webapps/projects/demo/demo/spiders",
+            "label": "demo.py"
+          }
+        ],
+        "label": "spiders"
+      },
+      {
+        "path": "/Users/dtstack/PycharmProjects/DtCrawlAdmin/webapps/projects/demo/demo",
+        "label": "__init__.py"
+      },
+      {
+        "path": "/Users/dtstack/PycharmProjects/DtCrawlAdmin/webapps/projects/demo/demo",
+        "label": "middlewares.py"
+      },
+      {
+        "path": "/Users/dtstack/PycharmProjects/DtCrawlAdmin/webapps/projects/demo/demo",
+        "label": "settings.py"
+      },
+      {
+        "path": "/Users/dtstack/PycharmProjects/DtCrawlAdmin/webapps/projects/demo/demo",
+        "label": "items.py"
+      },
+      {
+        "path": "/Users/dtstack/PycharmProjects/DtCrawlAdmin/webapps/projects/demo/demo",
+        "label": "pipelines.py"
+      }
+    ],
+    "label": "demo"
+  },
+  {
+    "path": "/Users/dtstack/PycharmProjects/DtCrawlAdmin/webapps/projects/demo",
+    "label": "scrapy.cfg"
+  }
+]

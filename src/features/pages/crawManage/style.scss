@@ -1,0 +1,385 @@
+.ant-layout{
+  height: 100%
+  
+}
+.ant-layout.ant-layout-has-sider > .ant-layout, .ant-layout.ant-layout-has-sider > .ant-layout-content{
+  background: white;
+}
+.taskmanage-container{
+  background-color: white;
+  padding: 20px 10px;
+  .func-box{
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.args-box-left{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+.cycle-container{
+  padding: 0px 10px;
+  padding-bottom: 20px;
+  background-color: white;
+  .ant-table td,th { white-space: nowrap; }
+  .nav{
+    padding-left: 0;
+  }
+  .func-box{
+    margin-bottom: 20px;
+    .co{
+      margin-right: 20px;
+    }
+  }
+  .btn-box{
+    margin-top: 10px;
+  }
+  .stauts-box{
+    background-color: white;
+    padding: 20px 0;
+    .total{
+      margin-right: 60px;
+    }
+    span{
+      a{
+        margin-left: 10px;
+        cursor: text;
+      }
+      .success{
+        color: rgb(94,152,94);
+      }
+      .running{
+        color: rgb(84,158,225);
+      }
+      .waitco{
+        color: rgb(225,142,0)
+      }
+      .failed{
+        color: rgb(255,0,99)
+      }
+    }
+  }
+
+}
+.create-task-index-container{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+}
+
+
+.baseSetting-container{
+  padding: 20px 20px;
+  background-color: white;
+
+  .ant-divider-horizontal{
+    margin: 15px 0;
+  }
+  .ant-collapse-content{
+    border-top: none;
+  }
+  .ant-form-horizontal{
+    width: 60%;
+    margin: 0 auto;
+  }
+  .ant-collapse{
+    border: none;
+    background-color: white;
+  }
+  .ant-collapse > .ant-collapse-item{
+    margin-bottom: 24px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    background-color: #d9d9d9;
+  }
+  .func-box{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    .btn{
+      margin-right: 10px;
+    }
+  }
+  .btn-box{
+    text-align: right;
+    // padding-right: 20%;
+    background-color: white;
+    .btn{
+      margin: 0 10px;
+    }
+  }
+}
+.ip-container, .node-manage-container{
+  background-color: white;
+  padding: 20px 20px;
+  height: 100%;
+  .func-box{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.editscript-container{
+  background-color: white;
+  // padding: 0px 20px;
+  height: 100%;
+  width: 98%;
+  // padding-top: 5px;
+  position: relative;
+  margin: 0 auto;
+
+  .func-box{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    border: 1px solid #999;
+    width: 100%;
+    border-bottom: none;
+    padding: 15px 0;
+    padding-left: 30px;
+    .btn{
+      margin-right: 30px;
+    }
+  }
+  .editor-box{
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid #999;
+    // border-bottom: 1px solid #999;
+    .py-code{
+      width: 100%;
+      height: 100%;
+      #editor{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .tree-box{
+      min-width: 20%;
+      height: 100%;
+      overflow: scroll;
+    }
+    .config-box{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+
+      .form-box{
+        padding: 5px 5px;
+        border-top: 1px solid rgb(226, 226, 226);
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+      }
+    }
+  }
+}
+
+.new-craw-task-container{
+  background-color: white;
+  height: 100%;
+  .top-panel{
+    // height: 20%;
+    margin-bottom: 20px;
+  }
+  .form-panel{
+    height: 80%;
+    background-color: white;
+  }
+  .ant-steps{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .top-panel{
+    .btn-box{
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 20px;
+      button{
+        margin: 0 10px;
+      }
+    }
+  }
+}
+.script-detail-container{
+  // height: 100%;
+  background-color: white;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  .func-box{
+    margin-top: 20px;
+  }
+  .table-box{
+    margin-top: 20px;
+  }
+}
+
+
+.Resizer {
+  box-sizing: border-box;
+  background: rgb(226,226,226);
+  opacity: 0.5;
+  z-index: 1;
+  background-clip: padding-box;
+}
+
+.Resizer:hover {
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.Resizer.horizontal {
+  height: 11px;
+  margin: -5px 0;
+  border-top: 5px solid rgba(255, 255, 255, 0);
+  border-bottom: 5px solid rgba(255, 255, 255, 0);
+  cursor: row-resize;
+  width: 100%;
+}
+
+.Resizer.horizontal:hover {
+  border-top: 5px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+.Resizer.vertical {
+  width: 11px;
+  margin: 0 -5px;
+  border-left: 5px solid rgba(255, 255, 255, 0);
+  border-right: 5px solid rgba(255, 255, 255, 0);
+  cursor: col-resize;
+}
+
+.Resizer.vertical:hover {
+  border-left: 5px solid rgba(0, 0, 0, 0.5);
+  border-right: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+.vertical section {
+  width: 100vh;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.vertical header {
+  padding: 1rem;
+  background: #eee;
+}
+
+.vertical footer {
+  padding: 1rem;
+  background: #eee;
+}
+.args-box{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .input-span{
+    display: flex;
+    align-items: center;
+    height: 32px;
+    margin-bottom: 5px;
+    input{
+      width: 100px;
+    }
+  }
+  
+  .args-input{
+    input{
+      font-size: 12px;
+    }
+  }
+  .args-input-m{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .ant-time-picker-input{
+    font-size: 12px;
+  }
+}
+.right-panel{
+  .Pane2{
+    width: auto;
+    overflow: scroll;
+  }
+}
+
+.log-content-container{
+  padding: 20px 10px;
+  background: white;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  .func-bar{
+    .title{
+      margin-right: 10px;
+    }
+  }
+  .log-content-box{
+    background: white;
+    /* padding: 20px 20px; */
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #999;
+    height: 100%;
+    overflow: scroll;
+    pre{
+      height: 100%;
+      overflow: scroll;
+    }
+  }
+}
+.log-host-select{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  .title{
+    margin-right: 20px;
+  }
+}
+.log-content{
+  p{
+    max-height: 490px;
+    overflow: scroll;
+  }
+}
+.rightPanelStatusBtn{
+  position: absolute;
+  right: 0;
+  z-index: 9999;
+  top: 50%;
+  transform: translate(0%,-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 50px;
+  border-radius: 5px 0 0 5px;
+  background: #9999998c;
+  cursor: pointer;
+  transition: all .3s;
+  &:hover{
+    background: #999999bf;
+  }
+}

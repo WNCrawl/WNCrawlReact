@@ -1,0 +1,52 @@
+.login-container{
+
+  input:-webkit-autofill, 
+  textarea:-webkit-autofill, 
+  select:-webkit-autofill { 
+        -webkit-box-shadow: 0 0 0 1000px white inset; 
+  }
+  input[type=text]:focus, input[type=password]:focus, textarea:focus {
+      -webkit-box-shadow: 0 0 0 1000px white inset; 
+  }
+
+  background-color: rgb(240,246,249);
+  height: 100%;
+  .form-box{
+    // width: 350px;
+    // top: 50%;
+    // position: absolute;
+    // left: 50%;
+    // transform: translate(-50%,-50%);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px 0px;
+    position: fixed;
+    background-color: white;
+    width: 410px;
+    padding-left: 46px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    padding-right: 46px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+
+    .title{
+      font-size: 30px;
+      color: #046ec6;
+    }
+
+  }
+  button{
+    margin-top: 50px;
+    height: 40px;
+  }
+  .ant-form label{
+    font-size: 16px;
+  }
+  .ant-btn,.func-box,.ant-input,.ant-table,.ant-select{
+    font-size: 16px;
+  }
+  input{
+    height: 40px;
+  }
+}

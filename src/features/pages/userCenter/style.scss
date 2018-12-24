@@ -1,0 +1,28 @@
+.rolemanage-container,.member-manage-container{
+  background-color: white;
+  padding: 20px 30px;
+
+  .top-box{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+}
+.member-manage-container .top-box{
+  justify-content: space-between;
+}
+.userinfo-container{
+  background-color: white;
+  padding: 20px 30px;
+
+  .info-box{
+    padding: 10px 15px;
+    margin-top: 20px;
+    .bottom-box{
+      margin-top: 40px;
+      div{
+        margin-left: 50px;
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+
+.top-nav{
+  height: 50px;
+  line-height: 50px;
+  &.ant-layout-header{
+    background: rgb(4,110,198);
+  }
+  .container{
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav-btn-logo{
+      height: 50px;
+      display: flex;
+      
+      .logo{
+        font-size: 30px;
+        font-weight: bold;
+      }
+      .nav-btn{
+        display: flex;
+        ul{
+          display: flex;
+          list-style: none;
+          margin-bottom: 0;
+          height: 50px;
+          cursor: pointer;
+          li{
+            padding: 0 15px;
+            margin: 0 5px;
+            a{
+              display: block;
+            }
+            &.active{
+              background-color: #3C87D7;
+            }
+            a{
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+  .ant-dropdown-trigger{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+  }
+}
+.side-nav{
+  a{
+    font-size: 12px;
+  }
+}
+
+.table-box{
+  table{
+    padding: 0 !important;
+    .ant-table-thead{
+      tr{
+        th{
+          background-color: rgb(240,242,245) !important;
+        }
+      }
+    }
+  }
+}
+  
+//设置字体
+body{
+  .ant-form label{
+    font-size: 12px;
+  }
+  .ant-layout-sider{
+    border-right: 2px solid #f0f2f5;
+  }
+  .ant-btn,.func-box,.ant-input,.ant-table,.ant-select{
+    font-size: 12px;
+  }
+  .ant-calendar-picker{
+    // width: 200px;
+  }
+}
+
+.status-404{
+  position: absolute;
+  top: 40%;
+  transform: translate(0,-50%);
+  text-align: center;
+  width: 100%;
+  h1{
+    color: #999;
+  }
+}

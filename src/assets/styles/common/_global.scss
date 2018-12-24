@@ -1,0 +1,47 @@
+.top-nav{
+  height: 50px;
+  line-height: 50px;
+  &.ant-layout-header{
+    background: rgb(4,110,198);
+  }
+  .container{
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav-btn-logo{
+      height: 50px;
+      display: flex;
+      
+      .logo{
+        font-size: 30px;
+        font-weight: bold;
+      }
+      .nav-btn{
+        display: flex;
+        ul{
+          display: flex;
+          list-style: none;
+          margin-bottom: 0;
+          height: 50px;
+          li{
+            padding: 0 20px;
+            &.active{
+              border-bottom: 1px solid #2490f7;
+            }
+            a{
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+  .ant-dropdown-trigger{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+  }
+}
